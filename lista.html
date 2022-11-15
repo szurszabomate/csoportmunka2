@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Listák</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lista.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
 </head>
 <body>
     <h1>Listák</h1>
     <h2>Használat</h2>
-<div>
-    <h3>Példák</h3>
-    <select>
-        <label>Példák</label>
-        <optgroup>
+    <p>Listát úgy lehet létrehozni, hogy kapcsos zárójelek közé rakjuk az elemeket ([]), amiket vesszővel választunk el egymástól.</p>
+   <label>Példák</label>
+    <select onchange="location = this.value;">
+        <optgroup label="Példák">
             <option>Példa 1</option>
             <option>Példa 2</option>
             <option>Példa 3</option>
         </optgroup>
     </select>
-</div>
-    <p>Listát úgy lehet létrehozni, hogy kapcsos zárójelek közé rakjuk az elemeket ([]), amiket vesszővel választunk el egymástól.</p>
+    
+   
 </body>
 </html>
