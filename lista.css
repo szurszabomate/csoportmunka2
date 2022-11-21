@@ -1,8 +1,16 @@
-body{
-    background-color:palegreen;
-}
+
 h1{
     background-color: black;
     color: white;
     text-align: center;
+    border-radius: 12px;
+}
+h2{
+    text-decoration: underline;
+}
+p{
+    font-size: 22px;
+}
+#pelda{
+    font-size: 20px;
 }
