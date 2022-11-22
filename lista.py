@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 lista=[1,2,3,4,5]
 lista2=[6,7,8,9,10]
+=======
+szamok = ["egy","kettő","három","négy"]
+szamok.append("öt")
+print(szamok) 
+>>>>>>> 01ced88ca55876deb2490c18b2f934c25451c4d7
 
 x = lista+lista2
 print(x)
