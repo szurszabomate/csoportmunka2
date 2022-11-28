@@ -19,3 +19,26 @@ p{
 li{
     font-size: 22px;
 }
+#kep1{
+    position: absolute;
+    left: 200px;
+    bottom: 1px;
+}
+#kep2{
+    position: absolute;
+    right: 200px;
+    bottom: 350px;
+}
+h3{
+    font-size: 30px;
+    position: absolute;
+    left: 300px;
+    
+}
+
+h4{
+    font-size: 30px;
+    position: absolute;
+    right: 300px;
+    
+}
